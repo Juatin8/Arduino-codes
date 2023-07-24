@@ -17,4 +17,8 @@ public:
   int read(int index);
   void swing2Max(int index, int SERVO_MIN_ANGLE, int SERVO_MAX_ANGLE, int SERVO_DELAY);
   void swing2Min(int index, int SERVO_MIN_ANGLE, int SERVO_MAX_ANGLE, int SERVO_DELAY) ;
+  void swingAllSyn2Min(int SERVO_MIN_ANGLE, int SERVO_MAX_ANGLE, int SERVO_DELAY);
+  void swingAllSyn2Max(int SERVO_MIN_ANGLE, int SERVO_MAX_ANGLE, int SERVO_DELAY);
+  void swingAllASyn2Min(int SERVO_MIN_ANGLE, int SERVO_MAX_ANGLE, int SERVO_DELAY, int Btween_delay);
+  void swingAllASyn2Max(int SERVO_MIN_ANGLE, int SERVO_MAX_ANGLE, int SERVO_DELAY, int Btween_delay);
 };
