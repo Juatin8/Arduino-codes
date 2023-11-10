@@ -19,7 +19,6 @@ void setup() {
   }
 
   Serial.println(F("Shutdown pins inited..."));
-  Serial.println(F("Both in reset mode...(pins are low)"));
   Serial.println(F("Starting..."));
   setID();
 }
@@ -31,19 +30,16 @@ void loop() {
 
 //----------------- 函数封装------------------------------
 void setID() {
-  //重置
   for (int i = 0; i < NUM_SENSORS; i++) {
     digitalWrite(shutdownPins[i], LOW);
   }
 
-  // 对每个设备进行如下操作i
-  for (int i = 0; i < NUM_SENSORS; i++) {
+  for (int i = 0; i < NUM_SENSORS; i++) {   // 对每个设备进行如下操作i
     digitalWrite(shutdownPins[i], HIGH);
     delay(10);
     if (!lox[i].begin(sensorAddresses[i])) {  //设置地址
       Serial.println(F("Failed to boot VL53L0X sensor"));
-      while (1)
-        ;
+      while (1);
     }
     delay(10);
   }
