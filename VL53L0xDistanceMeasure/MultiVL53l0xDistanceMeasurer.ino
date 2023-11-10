@@ -47,9 +47,6 @@ void setID() {
     }
     delay(10);
   }
-  for (int i = 0; i < NUM_SENSORS; i++) {  //全部拉高
-    digitalWrite(shutdownPins[i], HIGH);
-  }
 }
 
 void read_multiple_sensors() {
