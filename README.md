@@ -6,3 +6,5 @@
 我个人的arduino codes
 基本上是ESP32。ESP32 YYDS。
 
+调研笔记：App Store 言语康复训练 App 功能分布与稀缺需求见 [`research/app-store-speech-rehab-survey.md`](research/app-store-speech-rehab-survey.md)。
+
