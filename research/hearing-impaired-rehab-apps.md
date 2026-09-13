@@ -2,7 +2,8 @@
 
 调研日期：2026-09-13  
 范围：听障、助听器、人工耳蜗（CI）的 **听能康复 + 言语产出**。字幕/手语交友/处理器遥控只作对照。  
-上级报告：[app-store-speech-rehab-survey.md](app-store-speech-rehab-survey.md)
+上级报告：[app-store-speech-rehab-survey.md](app-store-speech-rehab-survey.md)  
+「说」专项：[hi-speech-production-survey.md](hi-speech-production-survey.md)
 
 > 听障不是「再做一个跟读 App」。商店里 **听** 和 **说** 是两条几乎不相交的产品线。中文听能大库在 PC/微信，不在 App Store；中文说的 App 几乎不练听。最大空白是 **听–说闭环 + 普通话声调 + 家长 AVT + 不绑品牌的 iOS 听能课**。
 

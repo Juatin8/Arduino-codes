@@ -9,4 +9,5 @@
 调研笔记：
 - App Store 言语康复训练 App：[research/app-store-speech-rehab-survey.md](research/app-store-speech-rehab-survey.md)
 - 听障/人工耳蜗专项：[research/hearing-impaired-rehab-apps.md](research/hearing-impaired-rehab-apps.md)
+- 听障「说」产出专项：[research/hi-speech-production-survey.md](research/hi-speech-production-survey.md)
 

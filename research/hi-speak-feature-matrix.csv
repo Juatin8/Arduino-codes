@@ -1,0 +1,13 @@
+product,platform,hi_targeted,repeat_drill,score_asr,explainable_cue,front_viseme,sagittal_tongue,f0_vs_tone,vowel_f1f2,fricative_energy,intelligibility,self_video,tone_curriculum,notes
+Queshuo 雀说,iOS,1,1,1,1,1,1,0,0,0,0,0,1,oral animation + AI cues; tone accuracy complaints
+Yinshu 音书 drills,iOS,1,1,1,0,0,0,0,0,0,0,0,0,pinyin-word-sentence-article scores; caption app first
+Misheng 米声,iOS,0,1,1,0,0,0,0,0,0,0,0,0,child reading screen; clinic funnel
+Qiyin Online,iOS,0,1,1,0,1,0,0,0,0,0,0,0,oral-motor + courses
+Speech Blubs,iOS,0,1,0,0,1,0,0,0,0,0,0,0,video model; no recognition
+Speech Tutor,iOS,0,1,0,0,1,1,0,0,0,0,1,0,EN sagittal/front; used with HI in clinic
+Voice Analyst,iOS,0,0,0,0,0,0,0,0,0,0,0,0,F0/loudness meter; no tone lesson
+SpeakClearly,iOS,0,1,1,0,0,0,0,0,0,0,0,0,EN clarity/intonation; stroke not HI
+Articulation Station Hive,iOS,0,1,0,0,1,0,0,0,0,0,1,0,clinician scores drills
+Congcong Demo,web,1,1,1,0,1,0,0,0,0,0,1,0,parent cam + viseme demo; not store
+Blue Voice,research,1,1,1,0,0,0,0,0,0,0,0,0,pitch game + band; preprint
+ViSTAFAE,research,1,1,0,0,1,1,0,0,0,0,1,0,tract + pitch panels; not consumer
