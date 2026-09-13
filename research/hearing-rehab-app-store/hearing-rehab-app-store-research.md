@@ -234,7 +234,8 @@ Sonara 有日报。其余几乎只记对错。疲劳是助听器满意度的核�
 
 局限：
 
-- 未安装全部 App 做逐关拆解，部分「宣称有」可能名不副实（尤其 Sonara spatial、Hearify 调机分析）。
+- 首版漏检「猫耳计划」（id 6751868252）；已用中国区 lookup / search API 更正。
+- 未安装全部 App 做逐关拆解，部分「宣称有」可能名不副实（尤其 Sonara spatial、Hearify 调机分析、猫耳空间听觉深度）。
 - 中国区上架情况随审核变化；小程序不在 App Store 统计内，但实际分流很大。
 - 评分样本小的产品（Sonara、Cochleo、Hearify、听力宝）不能当口碑证据。
 
