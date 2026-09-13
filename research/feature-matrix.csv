@@ -1,0 +1,22 @@
+app,store,population,conditions,lang,drill,progress,subscription,adaptive_plan,articulation,anomia,clinician_portal,literacy,asr_or_ai_score,custom_vocab,viseme_or_video,cognition,offline,mandarin_content,conversation,published_evidence,voice_biofeedback,stuttering,dialect,tone_feedback,cpt_caregiver,disordered_asr,notes
+Constant Therapy,US,adult,"aphasia,apraxia,dementia,cognition","en,es",1,1,1,1,0,1,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,90+ categories; no Mandarin
+Cuespeak,US/UK,adult,"aphasia,apraxia",en,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,NHS; news items; UK-centric vocab complaints
+nyra therapy,US,adult,"aphasia,dysarthria,cognition",en,1,1,1,1,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,wellness disclaimer
+RecoverBrain,CN,adult,"aphasia,dementia,cognition","zh,en,multi",1,1,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,cognition-heavy; claims Chinese
+Tactus Language Therapy,US,adult,aphasia,"en,es,fr,de",1,1,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,one-time purchase; word-level
+TalkPath Therapy,US,adult,"aphasia,cognition",en,1,1,0,1,0,1,1,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0,free 13500 tasks
+SpeechOn,HK,adult,"aphasia,dysarthria,stutter,anomia",yue,1,1,0,1,1,1,1,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,Cantonese-only AI SLT
+SpeakClearly,US,adult,"stroke,aphasia,apraxia",en,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,clarity/intonation/rhythm modes
+repeech,US,adult,dysarthria,en,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2.7GB; speech test then daily plan
+Articulation Station Hive,US,child,articulation,en,1,1,1,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,drill not conversation language
+Speech Blubs,US,child,"language delay,imitation","en,es,fr,pt",1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,video modeling; NO speech recognition
+Speech Therapy for Apraxia,US,child+adult,CAS/apraxia,en,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,8 motor-planning levels
+Speech FlipBook,US,child+adult,"articulation,apraxia",en,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,word/nonword generator
+Queshuo 雀说语训,CN,mixed,"HI/CI,articulation",zh,1,1,1,1,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,explainable cues; tone accuracy complaints
+Misheng 米声,CN,child,"lang delay,articulation",zh,1,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,3min screen; offline-center funnel
+Qiyin Online 启音在线,CN,child,"delay,oral-motor",zh,1,1,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,course mall + clinics
+Speak Up for Parkinson's,US,adult,PD loudness,en,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,volume meter + AV playback
+SpeechVive,CA,adult,PD,en,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,wearable companion
+DAF Pro,multi,adult,"stutter,fast rate",multi,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,delayed auditory feedback
+Yinshu 音书,CN,adult HI,"caption,articulation",zh,1,1,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,ASR caption first; pinyin drills extra
+Voice Analyst,US,adult,voice,en,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,pitch/loudness viz only
