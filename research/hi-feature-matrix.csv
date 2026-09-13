@@ -1,0 +1,15 @@
+product,platform,listen,speak,mandarin,tone_id,ling_or_phoneme,env_sound,speech_in_noise,viseme,closed_loop,f0_visual,parent_avt,brand_lock,notes
+Hearoes,iOS,1,0,0,0,1,1,1,1,0,0,0,0,Ling-6 vowels consonants narratives; some lipread clips; scoring complaints 2026
+i-Angel Sound,iOS,1,0,0,0,1,1,0,0,0,0,0,0,phonetic contrast + telephone; last update 2019; 2.8 stars
+Cochleo,iOS,1,0,0,0,0,0,1,0,0,0,0,0,speed/options/noise quiz
+eargym CI Rehab,iOS,1,0,0,0,0,0,0,0,0,0,0,0,CI <18mo; 13+
+Hear Coach,iOS,1,0,0,0,0,1,1,0,0,0,0,0,Starkey games; stale
+Angel Sound 天使语训,Windows,1,0,1,1,1,1,1,0,0,0,0,0,tone + telephone + music; not a proper iPhone app
+Li-er 利耳听训,WeChat,1,0,1,1,1,1,1,0,0,0,0,1,Cochlear CN; invite code for full
+Queshuo 雀说,iOS,1,1,1,1,1,0,0,1,1,0,0,0,listen then produce; tone accuracy complaints
+Yinshu 音书,iOS,0,1,1,0,0,0,0,0,0,0,0,0,caption-first; pinyin drills extra
+Cochlear CoPilot,iOS,1,0,0,0,0,0,0,0,0,0,0,1,education + light practice
+Nucleus Smart,iOS,0,0,0,0,0,0,0,0,0,0,0,1,processor control only
+HearCare / ListenFit,iOS,1,0,0,0,1,0,0,0,0,0,0,1,self-test / fitting
+Misheng 米声,iOS,0,1,1,0,0,0,0,0,0,0,0,0,child screen; clinic funnel
+WeChat research mini-program,WeChat,1,1,1,1,0,0,0,0,0,0,0,0,usability only; not store app
