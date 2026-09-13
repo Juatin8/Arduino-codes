@@ -6,7 +6,7 @@
 
 > 结论先行：训练 App 高度集中在「跟读/卡片/命名 + 进度条 + 订阅」。真正稀缺的是 **普通话成人神经性言语康复、方言/声调级反馈、生活迁移、沟通伙伴训练、障碍语音专用识别、硬件闭环**。
 >
-> 听障专项（听能 vs 语训分裂、声调 HVPT、家长 AVT）：[hearing-impaired-rehab-apps.md](hearing-impaired-rehab-apps.md)
+> 听障专项：[hearing-impaired-rehab-apps.md](hearing-impaired-rehab-apps.md) · 「说」产出专项：[hi-speech-production-survey.md](hi-speech-production-survey.md)
 
 ---
 
