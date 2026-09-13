@@ -1,0 +1,16 @@
+app,region,score,ratings,last_known_update,price_band,target,word_phrase,sentence,phoneme,speech_in_noise,env_sound,speech_rate,av_lipread,ling_pitch,working_memory,tone_discrimination,telephone,music,spatial,talker_id,family_voice,dialect,progress,adaptive,gamified,daily_plan,clinician_portal,speech_production,comm_tactics,fatigue_pro,device_link,healthkit
+Hearoes,US App Store,4.2,86,2026-08,subscription,CI/HA all ages,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+ReDi,US App Store,4.5,261,2026-08,free-oem,implant/HA teen-adult,1,1,1,0,1,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0
+Sonara,US App Store,,0,2026-09,subscription,CI/HA/APD/aphasia,1,1,1,1,1,0,0,1,1,0,0,0,1,0,0,0,1,1,0,1,1,0,0,1,0,0
+Lace Pro,US App Store,4.4,1800,2026-06,clinic,HA/APD adult,1,1,0,1,0,1,1,0,1,0,0,0,0,1,1,0,1,1,1,0,1,0,1,0,0,0
+Cochlear CoPilot,US App Store,3.2,57,2026,free-oem,Cochlear CI,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+WordSuccess,US App Store,,0,maintained,free-oem,HA/CI adult,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+AB ListenFit,US App Store,,0,recent,free-oem,AB Marvel CI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+i-Angel Sound,US App Store,2.8,52,2019-01,free,CI/HA,1,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Cochleo,US App Store,,0,2026-08,free+tip,CI,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Hearify Training,US App Store,5.0,2,2026-03,free,CI/HA,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0
+雀说语训,CN App Store,4.3,27,2026-09,subscription,hearing-impaired speech,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0
+米声,CN App Store,4.8,40,2025-10,free+offline,children 1-12 language,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0
+听力宝,CN App Store,3.0,2,2025-06,free,screening/tinnitus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+猫耳计划/CatEar,CN+US App Store,4.0,4,2026-03,subscription,hearing-impaired + language learners,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,1,0,0,0,0
+利耳听训3.0,WeChat miniprogram,,0,2025-07,freemium-oem,teen/adult HA/CI Chinese,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
