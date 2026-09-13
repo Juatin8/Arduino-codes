@@ -32,7 +32,7 @@
 
 | 功能 | 谁在做 | 备注 |
 |---|---|---|
-| 真 SRS（SM-2 / FSRS，按卡调度） | Anki、记忆卡片、Willys、StudyGlen、Anki Green、记忆卡 | 大量国产 App 只做固定 8 段艾宾浩斯 |
+| 按卡调度的真 SRS | Anki（FSRS）、墨墨 MM/MMX、RemNote、Mochi、StudyGlen 等 | 商店文案常写「艾宾浩斯」，不等于没有现代算法 |
 | 社区 / 共享牌组 | Quizlet、记乎、墨墨记忆卡、Brainscape、Noji | 中国偏考研/公考卡包 |
 | OCR / 拍照录入 | 闪卡、记乎 Plus、记忆卡、各类 AI 制卡 | 多数只 OCR，不理解内容 |
 | PDF / 文档导入 | 闪卡、MarginNote、Knowt、Gizmo、Flashka | 导入 ≠ 自动出高质量卡 |
@@ -49,7 +49,6 @@
 | **设备端 / 本地 AI 制卡** | SnapDeck、Willys、Lectures.AI；开源 Anghkooey / CardGenie | 依赖 iOS 26 + Apple Intelligence 机型；中文区几乎空白 |
 | **无账号 + 数据不出设备** | Anki Green、SnapDeck、Mochi（偏本地优先） | 大厂靠账号做订阅和增长 |
 | **离线也能生成卡片** | 仅设备端 AI 能做到；StudyGlen 明确写「生成必须联网」 | 云模型成本更低、效果更好卖 |
-| **FSRS 可切换 + 中文 UX** | 「记忆卡」(id 6753964505) 宣称 FSRS/SM-2/艾宾浩斯/Leitner，但几乎无评分 | Anki 强但 UI 旧、iOS 要 ¥168 |
 | **AI 卡片 grounded 到原文页码/时间戳** | Scholarly 等少数云产品强调 | 多数 AI 卡会幻觉 |
 | **漏一天不惩罚的调度** | Anghkooey 提 grace-first / freeze | 打卡产品反而用 streak 惩罚 |
 | **医学级 image occlusion（本地）** | Anki 插件成熟；移动端原生少 | 实现重，Anki 生态已占位 |
@@ -67,8 +66,8 @@
 | 年轮 | 4.82 / 2.3万 | 艾宾浩斯计划，可自定义 | 无 | iCloud；试用 20 张卡后订阅 | 错题/长文挖空，计划可暂停 |
 | 闪卡 (Detailsoft) | 4.80 / 1.3万 | 艾宾浩斯 | OCR、朗读；非大模型制卡 | iCloud，离线朗读 | 富文本笔记 + 遮盖记忆，Apple 推荐过 |
 | 记乎 | 4.52 / 0.98万 | 艾宾浩斯式 | OCR/批量出卡在 Plus | 账号云同步、班级 PK | 考公考研卡包 + 变现 |
-| 墨墨记忆卡 (泉亮，非墨墨背单词) | 4.85 / 0.59万 | 自研规划 | 无 | 社区分享 + 云 | 通用卡 + 遗忘曲线展示 |
-| 墨墨背单词 (MaiMemo) | 4.85 / 97.7万 | 论文级自适应 SRS | AI 助记/例句（云） | 账号、SDK、词量付费 | **单词专用**，不是通用卡片 |
+| 墨墨记忆卡 | 4.85 / 0.59万 | **MMX**（与 FSRS 同源） | 无本地大模型 | 社区分享 + 云 | 墨墨系通用卡；商店主体显示广州泉亮 |
+| 墨墨背单词 (MaiMemo) | 4.85 / 97.7万 | **MM**（FSRS 的研究源头之一） | AI 助记/例句（云） | 账号、SDK、词量付费 | **单词专用**，不是通用卡片 |
 | AI 背书匠 | 4.28 / 0.43万 | 督背/挖空，非 FSRS | 云端切割、挖空、出题 | 订阅 | 背诵课文，不是 SRS 闪卡 |
 | AnkiMobile 中国区 | 4.12 / 1244 | FSRS / SM-2 | 无内置 | AnkiWeb 可选 | 最强算法，UI/价格劝退 |
 | SnapDeck AI（已上架中文描述） | 尚无评分 | 简易间隔 | **Apple Intelligence 本地** | 无账号、不上云 | 设备门槛：iPhone 15 Pro+ / iOS 26 |
@@ -113,15 +112,16 @@
 
 稀缺组合：**无强制账号 + SwiftData 本地 + 可选私有 iCloud + `.apkg`/CSV 完整导出**。Anki 能做到但体验差；Anki Green 做到离线但不会做卡。
 
-### 4.3 「好用的 FSRS」而不是「又一个艾宾浩斯」
+### 4.3 调度算法本身不是缺口（更正）
 
-中国 B 层大多还在卖「艾宾浩斯 8 阶段」。FSRS 已是 Anki 默认级能力，但：
+初版把「商店没写 FSRS」当成「FSRS 稀缺」，这是错的。见文末勘误。
 
-- Anki iOS 贵、界面旧
-- 写了 FSRS 的国产新 App 几乎没用户
-- 几乎没人做「漏打卡不崩盘」（grace / freeze）
+- 国际认真做 SRS 的产品正在收敛到 FSRS：Anki、RemNote、Mochi、SiYuan，以及官方 [awesome-fsrs](https://github.com/open-spaced-repetition/awesome-fsrs) 上的一长串实现。
+- 中国用户量最大的记忆产品墨墨，用的是同源更完整的 MM / MMX，不是「没有现代算法」。
+- 中国独立「记忆卡片 / 年轮 / 闪卡 / 记乎」确实多为固定艾宾浩斯或 SM-2，但这是腰部文案与实现落后，不是品类空白。
+- FSRS 有 MIT 库（ts-fsrs / fsrs-rs / Swift 等），接入成本低，**不能当差异化卖点**。
 
-机会：默认 FSRS，可选艾宾浩斯给家长/老师看懂，漏一天自动顺延而不是惩罚。
+还值得做的只剩体验层：默认开、少配置、漏一天不崩盘。不要把「我们有 FSRS」写成主宣传。
 
 ### 4.4 制卡税仍然在
 
@@ -152,17 +152,18 @@
 - 又一个云端「PDF 变闪卡」订阅
 - 又一个考研共享卡包（记乎、墨墨记忆卡已占）
 - 只做打卡 / XP / 徽章（所有新 AI 卡都在堆）
-- 宣称 Anki 兼容却没有 FSRS、不能导回 `.apkg`
+- 宣称 Anki 兼容却不能导回 `.apkg`、复习历史丢失
+- 把「我们有 FSRS」当主卖点（算法已是开源标配）
 
 ## 6. 结论：相对能打的切口
 
 若做新 App，2026 最空的交集是：
 
-> **中文优先的通用记忆卡 + 真 FSRS + 设备端 AI 制卡 + 数据默认本地**
+> **中文优先的通用记忆卡 + 设备端 AI 制卡 + 数据默认本地**（调度用现成 FSRS/MM 系即可，不构成壁垒）
 
 三句话定边界：
 
-1. 不做墨墨那种封闭词库，做「任何要记的东西」。
+1. 不做墨墨那种封闭词库，做「任何要记的东西」。调度不要自研，接入 FSRS 即可。
 2. 不做 Quizlet/Knowt 那种上传即出卡，AI 只在设备上跑，老设备降级为手动/OCR。
 3. 不做 Anki 的配置地狱：捕获（拍/贴/分享扩展）→ 本地草稿卡 → 人改 10 秒 → 进入复习队列。
 
@@ -173,3 +174,22 @@
 中国区 `记忆卡片`：记忆卡片 1388842081、墨墨记忆卡 1537782938、年轮 1486305873、闪卡 1515687192、记乎 1460634473、墨墨背单词 888483369。
 
 本地 AI：SnapDeck 6759596002、Willys 6782160202、Lectures.AI 6757114709。
+
+FSRS / 墨墨算法：
+- [awesome-fsrs](https://github.com/open-spaced-repetition/awesome-fsrs)
+- [墨墨：记忆算法](https://memodocs.maimemo.com/docs/algorithm-intro/)
+- [MMX vs FSRS](https://memodocs.maimemo.com/docs/markji-mmx-vs-anki-fsrs/)
+- Jarrett Ye（叶峻峣，墨墨）[FSRS 发展史](https://l-m-sherlock.notion.site/The-History-of-FSRS-for-Anki-1e6c250163a180a4bfd7fb1fee2a3043)
+
+## 8. 勘误：FSRS 并不稀缺
+
+初版（2026-09-13 上午）把 FSRS 列入稀缺功能，依据是约 40 个商店描述里很少出现「FSRS」字样。这只能说明**文案**，不能说明**实现**。
+
+更正后的判断：
+
+1. **算法不稀缺。** FSRS 开源，Python/Rust/TS/Swift/Kotlin 都有官方或社区库。Anki 内置；RemNote、Mochi、SiYuan、StudyGlen、Willys、KaChiKa 等已接入。
+2. **中国更不稀缺。** FSRS 本身就是墨墨论文里 DHP 模型的开源简化版。墨墨背单词用 MM，墨墨记忆卡用 MMX；墨墨文档写明 MM / MMX / FSRS 是同一类记忆算法的产品版与社区版。
+3. **仍成立的窄结论：** 中国 App Store 搜「记忆卡片」排在前面的独立 App（记忆卡片、年轮、闪卡、记乎）多数卖固定艾宾浩斯，没有宣称 FSRS。这是腰部产品的实现/营销落后，不是「市场没有现代 SRS」。
+4. **方法局限：** 没反编译、没跑复习日志对照，无法证明某 App 后台是不是套了 ts-fsrs。Quizlet 等也从未在商店页写算法名。
+
+产品含义：不要把 FSRS 当未满足需求。真正更空的是本地 AI 制卡和数据不出设备。
